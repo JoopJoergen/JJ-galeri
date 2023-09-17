@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JJ Galeri</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><span>JJ</span> Galeri</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Saya</a>
+        <a href="#menu">Galeri</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Selamat Datang di</h1>
+        <h2><span>JJ</span> Galeri</h2>
+        <p>Berikut Foto-foto Joop Joergen</p>
+        <a href="#" class="cta">Silahkan di lihat-lihat</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h3>Tentang <span>Saya.</span></h3>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="pic/gilaaa.jpg" alt="Tentang Saya" />
+        </div>
+        <div class="content">
+          <h4>Siapa Joop Joergen?</h4>
+          <p>
+            Joop Joergen adalah seseorang yang lahir di
+            <span>Makassar, 29 September 2002</span>.
+          </p>
+          <p>
+            Lahir di keluarga dengan jumlah anak 4 dan Joop Joergen ini
+            merupakan anak ke-3 dan merupakan satu-satunya anak laki-laki di
+            keluarga tersebut.
+          </p>
+          <p>Dia memiliki impian membahagiakan orang tuanya.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- menu section start -->
+    <section id="menu" class="menu">
+      <h4><span>Foto</span> Saya.</h4>
+      <p>Jangan diliat terlalu lama nanti makin sayang.</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="pic/1.jpg" alt="pede" class="menu-card-img" />
+          <h6 class="menu-card-title">Yang penting pede dulu ye kan</h6>
+        </div>
+        <div class="menu-card">
+          <img src="pic/DSC_0249.jpg" alt="pede" class="menu-card-img" />
+          <h6 class="menu-card-title">Memang pemalu hehe..</h6>
+        </div>
+        <div class="menu-card">
+          <img
+            src="pic/IMG-20211008-WA0040.jpg"
+            alt="pede"
+            class="menu-card-img"
+          />
+          <h6 class="menu-card-title">Lihat kamu bertingkah lucu</h6>
+        </div>
+        <div class="menu-card">
+          <img src="pic/IMG_3876.jpg" alt="pede" class="menu-card-img" />
+          <h6 class="menu-card-title">sudah jangan dilihat terus</h6>
+        </div>
+        <div class="content">
+          <p>Udah itu aja dulu.</p>
+          <p>kalau mau lagi minta aja langsung</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h5>hubungi <span>Saya.</span></h5>
+      <p>Telpon aja langsung ya.</p>
+
+      <div class="row">
+        <img src="pic/barcode.jpeg" alt="wa" />
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
